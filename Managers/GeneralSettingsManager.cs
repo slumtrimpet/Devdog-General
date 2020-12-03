@@ -16,7 +16,6 @@ namespace Devdog.General
             base.Awake();
 
             settings.defaultCursor.Enable();
-            Assert.raiseExceptions = settings.useExceptionsForAssertions;
             DevdogLogger.minimaLog = settings.minimalLogType;
         }
     }
